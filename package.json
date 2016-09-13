@@ -1,0 +1,16 @@
+{
+  "name": "hyperterm-hypermaterial",
+  "version": "0.1.0",
+  "description": "A material theme for hyperterm.",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/dotcypress/hyperterm-hypermaterial"
+  },
+  "main": "index.js",
+  "keywords": [
+    "hyperterm",
+    "material"
+  ],
+  "author": "Vitaly Domnikov <dotcypress@gmail.com>",
+  "license": "MIT"
+}
