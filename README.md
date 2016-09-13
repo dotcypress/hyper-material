@@ -1,6 +1,6 @@
 # hyperterm-hypermaterial
 
-[Hypermaterial](https://hyperterm.org) material theme.
+Material theme for [hyperterm](https://hyperterm.org).
 ![HyperTerm](hypermaterial.png)
 
 ## Install
