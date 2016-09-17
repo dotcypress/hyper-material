@@ -29,7 +29,7 @@ exports.decorateConfig = (config) => {
           border-color: transparent;
         }
       }
-      .cursor-node, .cursor-node[focus="false"] {
+      .cursor-node, .cursor-node[focus="true"] {
         box-sizing: content-box !important;
         animation: blink-animation .8s ease-in-out infinite;
         border-width: 0 0 2px 0 !important;
