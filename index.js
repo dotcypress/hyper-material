@@ -29,11 +29,15 @@ exports.decorateConfig = (config) => {
           border-color: transparent;
         }
       }
-      .cursor-node, .cursor-node[focus="true"] {
-        box-sizing: content-box !important;
+      body .cursor-node {
         animation: blink-animation .8s ease-in-out infinite;
-        border-width: 0 0 2px 0 !important;
-        border-color: #68b6f3 !important;
+        box-sizing: content-box !important;
+        border-width: 0px !important;
+        border-bottom: 2px solid #68b6f3 !important;
+      }
+      body .cursor-node[focus="false"] {
+        border-width: 0px !important;
+        border-bottom: 2px solid #376284 !important;
       }
     `,
     css: `
