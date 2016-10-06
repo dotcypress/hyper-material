@@ -1,11 +1,11 @@
-# hyperterm-hypermaterial
+# hyper-material
 
-Material theme for [hyperterm](https://hyperterm.org).
-![HyperTerm](hypermaterial.png)
+Material theme for [Hyper.app](https://hyper.is).
+![hyper-material](hypermaterial.png)
 
 ## Install
 
-Add `hyperterm-hypermaterial` to your plugins list in `~/.hyperterm.js`:
+Add `hyper-material` to your plugins list in `~/.hyperterm.js`:
 
 ```js
 plugins: [
@@ -16,7 +16,7 @@ plugins: [
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-hypermaterial'
+    'hyper-material'
   ]
 ]
 ```
