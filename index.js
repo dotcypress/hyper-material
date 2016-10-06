@@ -29,15 +29,14 @@ exports.decorateConfig = (config) => {
           border-color: transparent;
         }
       }
-      body .cursor-node {
-        animation: blink-animation .8s ease-in-out infinite;
+      body .cursor-node[focus="false"], body .cursor-node[focus="true"] {
         box-sizing: content-box !important;
         border-width: 0px !important;
-        border-bottom: 2px solid #68b6f3 !important;
+        border-bottom: 2px solid #5e7986 !important;
       }
-      body .cursor-node[focus="false"] {
-        border-width: 0px !important;
-        border-bottom: 2px solid #376284 !important;
+      body .cursor-node[focus="true"] {
+        animation: blink-animation .8s ease-in-out infinite;
+        border-color: #68b6f3 !important;
       }
     `,
     css: `
