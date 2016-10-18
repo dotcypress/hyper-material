@@ -3,7 +3,7 @@ exports.decorateConfig = (config) => {
     foregroundColor: '#eceff1',
     backgroundColor: '#263238',
     borderColor: '#222d32',
-    cursorColor: 'rgba(0, 0, 0, 0)',
+    cursorColor: '#68b6f3',
     colors: [
       '#263238',
       '#ff5252',
@@ -26,17 +26,13 @@ exports.decorateConfig = (config) => {
       ${config.termCSS || ''}
       @keyframes blink-animation {
         to {
-          border-color: transparent;
+          background-color: transparent;
         }
       }
-      body .cursor-node[focus="false"], body .cursor-node[focus="true"] {
+      .cursor-node[focus=true]:not([moving]) {
+        animation: blink-animation .777s ease-in-out infinite;
         box-sizing: content-box !important;
-        border-width: 0px !important;
-        border-bottom: 2px solid #5e7986 !important;
-      }
-      body .cursor-node[focus="true"] {
-        animation: blink-animation .8s ease-in-out infinite;
-        border-color: #68b6f3 !important;
+        mix-blend-mode: difference;
       }
     `,
     css: `
