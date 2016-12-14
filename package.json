@@ -1,10 +1,10 @@
 {
   "name": "hyper-material",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A material theme for Hyper.app",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/dotcypress/hyperterm-hypermaterial"
+    "url" : "https://github.com/dotcypress/hyper-material"
   },
   "main": "index.js",
   "keywords": [

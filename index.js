@@ -1,8 +1,9 @@
+exports.onWindow = browserWindow => browserWindow.setVibrancy('dark');
 exports.decorateConfig = (config) => {
   return Object.assign({}, config, {
     foregroundColor: '#eceff1',
-    backgroundColor: '#263238',
-    borderColor: '#222d32',
+    backgroundColor: 'rgba(38, 50, 56, 0.9)',
+    borderColor: 'transparent',
     cursorColor: '#68b6f3',
     colors: [
       '#263238',
@@ -38,10 +39,14 @@ exports.decorateConfig = (config) => {
     css: `
       ${config.css || ''}
       .header_header {
-        background: #222d32 !important;
+        background: rgba(34, 45, 50, 0.5) !important;
       }
-      .hyperterm_main, .tab_text {
+      .hyperterm_main, .tab_tab, .tab_text {
         border: none !important;
+        padding: 0 !important;
+      }
+      .tab {
+        color: red !important;
       }
       .tab_tab::before {
         position: absolute;
@@ -51,10 +56,10 @@ exports.decorateConfig = (config) => {
         right: 0px;
         bottom: 0px;
         transition: border-color .3s ease-in-out;
-        border-bottom: 3px solid #222d32;
+        border-bottom: 3px solid transparent;
       }
       .tab_active::before {
-        border-color: #617d8a;
+        border-bottom: 3px solid #617d8a;
       }
     `
   })
