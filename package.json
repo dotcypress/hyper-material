@@ -1,6 +1,6 @@
 {
   "name": "hyper-material",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A material theme for Hyper.app",
   "repository" : {
     "type" : "git",

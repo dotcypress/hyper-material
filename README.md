@@ -1,7 +1,8 @@
 # hyper-material
 
 Material theme for [Hyper.app](https://hyper.is).
-![hyper-material](hypermaterial.png)
+
+<img width="640" alt="hyper-material" src="https://cloud.githubusercontent.com/assets/1333916/21167023/63bc12ac-c15e-11e6-8694-c3a1b5c4afa6.png">
 
 ## Install
 
