@@ -2,7 +2,7 @@
 
 Material theme for [Hyper.app](https://hyper.is).
 
-<img width="640" alt="hyper-material" src="https://cloud.githubusercontent.com/assets/1333916/21167023/63bc12ac-c15e-11e6-8694-c3a1b5c4afa6.png">
+<img width="640" alt="hyper-material" src="https://cloud.githubusercontent.com/assets/1333916/21234676/7741185e-c2a8-11e6-87da-8bc9e1293764.png">
 
 ## Install
 
