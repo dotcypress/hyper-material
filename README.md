@@ -21,3 +21,8 @@ plugins: [
   ]
 ]
 ```
+
+
+## Credits
+
+[Official Hyper port of the Material Theme](https://github.com/equinusocio/hyper-material-theme)
